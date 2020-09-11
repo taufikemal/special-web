@@ -1,29 +1,50 @@
-.slider h3,
-.slider h5,
-.clients h3 {
-    text-shadow: 1px 1px 3px rgb(0,0,0,0.7);
+body{
+    font-family: 'Poppins', sans-serif;
 }
 
-.parallax-container {
-    height: 40%;;
+#sesi1{
+    background: linear-gradient(45deg, #d900ff, #ff0015)no-repeat fixed;
+    height: 100vh;
 }
 
-.parallax img {
-    filter: grayscale(1);
-    opacity: 0.5 !important;
+#sesi2{
+    background: #00A1B7 no-repeat fixed;
+    height: 136vh;
 }
 
-.clients img {
-    max-width: 150px;
-    filter: drop-shadow(1px 1px 1px rgba(0,0,0.8));
+#sesi3{
+    background: #fff no-repeat fixed;
+    height: 100vh;
+}
+
+#sesi4{
+    background:  linear-gradient(180deg,#d2e9ff, #b4eeff);
+    height: 100%;
+}
+
+#sesi5{
+    background: #b4eeff no-repeat fixed;
+    height: 100vh;
+}
+
+#sesi6{
+    background: linear-gradient(180deg, #ff439b, #ffa1a1) no-repeat fixed;
+    height: 100%;
+}
+.sesi{
+    background: url("img1.png");
+}
+
+.judul{
+    font-weight: bold;
+}
+
+.isi{
+    font-weight: 300;
 }
 
 section, footer{
     padding: 20px 0;
-}
-
-.nav-wrapper img {
-    padding-top: 22px;
 }
 
 footer p{
